@@ -4,7 +4,7 @@ import networkx as nx
 from SpectralData import SpectralData
 
 #importation du graph à partir du fichier gml
-GraphD = nx.read_gml('graphdumps1479935148.gml', label='id')
+GraphD = nx.read_gml('Data\graphdumps1479935148.gml', label='id')
 #GraphD = nx.read_gml('double_anneau.gml', label='label')
 print("Importation OK")
 nx.k_core(GraphD, 2)#Recuperation du sous-graph avec des noeuds de degré 2 au moins
@@ -36,8 +36,8 @@ for node in nodes:
                 hist[node].append(current_cluster['center'])
 
 
-print('x')
+print(' ')
 
 #saving results
-#sd.saveGraph('result_double_anneau.gml')*
-#sd.saveGraph('result.gml')
+#sd.saveGraph('Results\result_double_anneau.gml')*
+#sd.saveGraph('Results\result.gml')
