@@ -42,6 +42,7 @@ for g in multiple_graphs:
     sd.clusterNum = 30
     sd.graph = g
     SpectralDataList.append(sd)
+    
 
 # Processing
 resultGraphList = []
