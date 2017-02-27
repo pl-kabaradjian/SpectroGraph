@@ -1,0 +1,249 @@
+OrdreCIC;Age;Sexe;DgRecode;HC;Kras;WifFecal;AlexFecal;Vimfecal;WifSerum;WifUrine;AllBacterie;Leptum;Coccoid;Bacteroides;EColi;Bifidobact;Lactobacil;Parauntz;Poids;Taille;MUD;ATCDPolype;ATCDCancer;ATCDKnonDig;Diabete;Cholesterol;Polypefaimille;KdsFamille;Regimesuivi;Medicaments;RegimDiabete;RegimVeget;MotifColo;TvsNT;BMI;HCrecode;Wiftest;agetranche
+1;52;Feminin;N;Negatif;1;0;0;0;0;0;11,63;0;1,19;1,11;2,73;1,62;2,41;0,7;59;170;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;20;0;0;1
+2;54;Feminin;N;Negatif;0;0;0;0;0;0;11,14;0,04;0,91;0,31;2,73;5,34;1,8;4,42;70;159;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;27;0;0;1
+3;70;Masculin;N;Negatif;0;0;0;0;0;0;11,53;0;1,63;0,6;4,07;2,85;2,24;0,57;69;177;Non;Oui;Non;Non;Non;Oui, mais non traite;Non;Oui;Oui;Oui;Non;Non;DepistageII;1;22;0;0;2
+24;37;Feminin;N;Negatif;1;0;0;0;0;0;11,57;0;1,06;1,05;4,68;1,35;2,65;0,24;42;152;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;18;0;0;1
+25;80;Feminin;N;Negatif;0;0;0;0;0;0;12,03;-0,01;1,34;0,72;3,16;1,19;2,02;1,11;56;160;Non;Oui;Non;Non;Non;Oui et traite;Non;Oui;Oui;Oui;Non;Non;DepistageII;1;21;0;0;2
+27;74;Masculin;N;Positif;0;0;0;0;0;0;12,14;-0,03;0,67;1,21;6,49;2,69;2,31;0,75;83;173;Oui;Oui;Non;Prostate;Non;Oui, mais non traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;27;1;0;2
+30;54;Masculin;N;Negatif;0;0;0;0;0;0;12,09;0;1,32;1,02;5,76;2;2,65;1,28;70;165;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Depistage;1;25;0;0;1
+37;62;Masculin;Ad;Negatif;0;0;0;0;0;0;12,13;0;1,37;0,09;6,46;4,47;2,31;0,7;81;181;Non;Oui;Non;Non;Non;Oui et traite;Oui;Oui;Oui;Oui;Non;Non;DepistageII;1;24;0;0;2
+40;57;Masculin;N;Negatif;0;0;0;0;0;0;11,4;0;0,9;1,1;2,15;0,9;1,5;0,5;69;170;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Oui;Non;Non;Depistage;1;23;0;0;1
+52;53;Feminin;N;Negatif;0;0;0;0;0;0;11,72;-0,03;0,88;2,84;5,18;1,29;2,8;0,93;76;160;Oui;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Symtome;1;29;0;0;1
+53;62;Feminin;N;Negatif;0;0;0;0;0;0;11,57;0;0,44;1,54;2,75;0,86;1,87;1,77;57;163;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;2
+54;63;Masculin;Ad+10;Negatif;0;1,81;0;1,1;2,01;1,91;12,07;-0,01;0,45;1,66;4,47;1,2;1,36;0,55;86;178;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;2;27;0;1;2
+60;53;Masculin;N;Negatif;0;0;0;0;0;0;11,6;0;0,69;1,59;4,6;4,2;2,48;0,48;99;177;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;DepistageII;1;31;0;0;1
+82;59;Feminin;N;Negatif;0;0;0;0;0;0;11,95;0;1,4;1,7;4,72;2,37;2,31;0,5;57;162;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;1
+101;52;Feminin;N;Negatif;0;0;0;0;0;0;11,82;0;0,95;1,35;3,77;0,96;2,29;0,4;59;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;23;0;0;1
+102;56;Feminin;N;Negatif;0;0;0;0;0;0;11,87;-0,01;1,31;4,69;3,42;2,38;2,88;0,74;54;150;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+103;48;Feminin;N;Negatif;0;0;0;0;0;0;12,04;-0,03;0,91;1,15;2,62;1,38;2,03;0,4;52;155;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Symtome;1;21;0;0;1
+105;68;Masculin;N;Negatif;0;0;0;0;0;0;12,23;-0,01;1,19;0,51;4,53;3,47;2,91;0,4;74;169;Oui;Non;Non;Prostate;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;25;0;0;2
+110;59;Feminin;N;Negatif;0;0;0;0;0;0;12,1;0;0,93;2,04;3,96;0,64;2,65;1,2;57;150;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Non;Non;Non;Non;Symtome;1;25;0;0;1
+112;44;Masculin;N;Negatif;0;0;0;0;0;0;11,96;0,02;0,88;0,96;5;0,68;0,69;0,56;93;192;Oui;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;DepistageII;1;25;0;0;1
+113;63;Masculin;Ad;Negatif;0;0;0;0;0;0;12,17;-0,02;1,34;1,94;3,71;0,91;1,92;0,29;75;169;Oui;Oui;Non;Non;Non;Oui et traite;Oui;Oui;Non;Oui;Non;Non;DepistageII;1;26;0;0;2
+116;55;Feminin;N;Negatif;0;0;0;0;0;0;11,87;-0,02;0,94;0,81;5,31;1,62;1,99;0,29;50;160;Non;Non;Non;Non;Non;Oui, mais non traite;Oui;Oui;Non;Oui;Non;Non;Depistage;1;19;0;0;1
+118;64;Feminin;N;Negatif;1;0;0;0;0;0;11,41;0;1,14;0,94;5,36;1,73;2,24;0,32;51;160;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Depistage;1;19;0;0;2
+121;59;Masculin;N;Negatif;0;0;0;0;0;0;11,49;0,01;1,31;0,97;5,23;2,21;1,67;0,55;70;166;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;25;0;0;1
+123;49;Masculin;N;Negatif;0;0;0;0;0;0;11,85;0,02;0,99;1,91;4,04;5,15;2,84;0,44;84;187;Non;Non;Non;Non;Non;Oui et traite;Oui;Oui;Non;Oui;Non;Non;Depistage;1;24;0;0;1
+129;63;Feminin;N;Negatif;0;0;0;0;0;0;12;-0,02;1,16;1,88;4,97;4,26;3,07;0,86;70;160;Oui;Non;Non;Non;Non;Non;Non;Oui;Oui;Oui;Non;Non;Symtome;1;27;0;0;2
+132;69;Feminin;N;Negatif;0;0;0;0;0;0;11,83;0,02;1,63;1,08;1,83;1,98;2,06;0,74;64;157;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;25;0;0;2
+139;61;Feminin;N;Negatif;0;0;0;0;0;0;11,84;0,03;1,53;1,35;2,61;2,09;1,07;1,64;69;168;Oui;Non;Estomac;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;24;0;0;2
+142;68;Feminin;N;Negatif;0;0;0;0;0;0;11,4;0,04;1,34;3,22;1,85;0,79;3,62;1,78;65;160;Non;Non;Non;Sein;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;25;0;0;2
+143;44;Feminin;N;Negatif;0;0;0;0;0;0;11,08;0,02;1,54;1,24;1,78;1,57;0,96;0,56;90;157;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Depistage;1;36;0;0;1
+147;45;Masculin;N;Negatif;0;0;0;0;0;0;11,98;0,03;1,03;1,3;3,41;1,3;2,44;0,83;74;184;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;1
+152;63;Feminin;N;Negatif;0;0;0;0;0;0;;;;;;;;;57;164;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;2
+153;59;Feminin;N;Negatif;0;0;0;0;0;0;11,35;0;2,05;1,02;3,38;1,75;0,3;0,96;62;145;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Depistage;1;29;0;0;1
+156;62;Masculin;N;Negatif;0;0;0;0;0;0;10,96;0,01;1,04;0,65;1,58;0,04;1,77;0,63;68;167;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Oui;Non;Oui;Non;Non;Depistage;1;24;0;0;2
+158;39;Feminin;N;Negatif;0;0;0;0;0;0;12,29;-0,02;0,95;0,65;4,09;1,28;1,99;0,42;90;162;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Oui;Non;Non;Depistage;1;34;0;0;1
+159;45;Feminin;N;Negatif;0;0;0;0;0;0;11,52;-0,01;0,7;0,93;5,04;0,73;2,36;0,88;60;166;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Depistage;1;21;0;0;1
+161;48;Feminin;Ad;Negatif;0;0;0;0;0;0;12,01;0;0,71;1,65;4,78;0,86;2,47;0,84;51;155;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Symtome;1;21;0;0;1
+162;68;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,46;0;0,91;2,72;3,62;1,69;2,49;1,17;62;171;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;2;21;0;0;2
+163;56;Feminin;N;Negatif;0;0;0;0;0;0;11,76;0;1,85;0,89;1,99;1,3;0,68;0,62;67;168;Non;Non;Non;Non;Non;Oui et traite;DM;Oui;Non;Oui;Non;Non;Depistage;1;23;0;0;1
+167;45;Masculin;N;Negatif;0;0;0;0;0;0;12,51;-0,02;1,4;0,55;2,09;5,23;1,88;0,7;85;180;Oui;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Depistage;1;26;0;0;1
+170;62;Feminin;K;Positif;0;0;0;0;0;0;11,7;-0,02;1,4;0,9;1,95;0,95;1,3;0,65;56;165;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;2;20;1;0;2
+171;59;Feminin;N;Negatif;0;0;0;0;0;0;11,91;-0,01;0,94;1,05;5,19;1,78;1,68;0,6;53;168;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Depistage;1;18;0;0;1
+173;59;Feminin;N;Negatif;1;0;0;0;0;0;12,03;-0,02;0,67;0,94;6,73;3,5;2,55;0,76;69;166;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Oui;Oui;Non;Non;Depistage;1;25;0;0;1
+176;52;Feminin;N;Negatif;0;0;0;0;0;0;12,14;0;1,12;1,2;4,54;1,52;2,85;0,58;71;156;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;1;29;0;0;1
+177;60;Feminin;N;Positif;0;0;0;0;0;0;12,17;0,01;1,4;1,85;3,95;2,43;2,47;0,85;82;170;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;28;1;0;1
+179;48;Masculin;N;Negatif;0;0;0;0;0;0;11,83;0,01;1,05;2,86;4,42;2,96;2,19;0,58;70;185;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Oui;Oui;Non;Non;Symtome;1;20;0;0;1
+181;58;Masculin;Ad;Negatif;0;0;0;0;0;0;11,81;-0,01;1,24;0,93;1,93;3,51;1,97;0,56;90;176;Oui;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;29;0;0;1
+182;52;Feminin;N;Negatif;0;0;0;0;0;0;11,72;0,01;0,91;1,24;2,62;0,68;3,04;1,07;92;156;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;37;0;0;1
+187;70;Masculin;N;Negatif;0;0;0;0;0;0;11,3;-0,02;1,37;1,08;3,95;2,07;1,66;0,39;71;168;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;25;0;0;2
+189;52;Feminin;N;Negatif;0;0;0;0;0;0;11,84;0;1,09;1,06;5,91;1,62;2,04;0,57;62;157;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;25;0;0;1
+191;62;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,77;0;0,71;2,02;4,43;1,35;2,99;0,92;98;184;Non;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;28;0;0;2
+192;29;Masculin;N;Negatif;0;0;0;0;0;0;11,75;0;0,98;0,95;5,05;1,62;0,74;0,15;75;175;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;24;0;0;1
+193;25;Masculin;N;Negatif;0;0;0;0;0;0;11,91;0,01;0,99;1,1;5,55;1,26;2,31;0,74;80;182;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+194;66;Feminin;N;Negatif;0;0;0;0;0;0;12,2;-0,03;1,29;0,48;4,34;2,31;1,99;0,11;67;153;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;28;0;0;2
+195;63;Feminin;N;Negatif;0;0;0;0;0;0;11,62;-0,01;1,21;0,86;4,51;2,04;2,39;0,18;69;173;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;DepistageII;1;23;0;0;2
+197;74;Feminin;Ad+10;Negatif;0;0;0;0;0;0;11,33;-0,02;;2,05;2,88;1,18;2,27;6,33;75;160;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Depistage;2;29;0;0;2
+198;63;Masculin;N;Negatif;1;2,2;2,01;;3,1;0;11,45;-0,01;2,01;1,95;2,04;1,53;2,02;2,07;82;180;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;25;0;1;2
+200;58;Masculin;K;Negatif;0;0;0;0;2,09;0;11,7;-0,02;1,3;0,89;2,7;1,2;2,3;0,4;68;170;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Oui;Non;Oui;Non;Non;Symtome;2;23;0;1;1
+203;60;Feminin;N;Negatif;0;0;0;0;0;0;11,76;-0,01;0,69;1,21;4,39;1,05;1,74;0,91;50;158;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;20;0;0;1
+207;62;Masculin;Ad;Negatif;0;0;0;0;0;0;11,83;0,02;1,07;0,81;2,2;0,71;1,75;0,37;101;165;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Symtome;1;37;0;0;2
+208;63;Masculin;Villeuse;Positif;0;0;0;0;3,01;0;12,03;-0,03;1,13;0,87;3,86;1,41;2,38;0,05;70;180;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Non;Oui;Non;Non;Depistage;2;21;1;1;2
+213;61;Feminin;N;Negatif;0;0;0;0;0;0;11,96;-0,01;1,29;1,01;3,57;5,12;2,06;0,95;56;154;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;23;0;0;2
+214;63;Masculin;Ad;Negatif;0;0;0;0;0;0;11,79;-0,02;0,88;3,3;4,94;0,83;2,99;0,98;85;180;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;26;0;0;2
+218;71;Feminin;Ad+10;Negatif;0;0;0;0;0;1;11,79;0,02;1,18;1,26;3,24;5,02;2,28;0,82;55;158;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;2;22;0;0;2
+220;83;Masculin;K;Positif;0;1,97;0;0;0;0;;;;;;;;;78;-97;Non;Non;Non;Vessie;Non;Oui et traite;DM;DM;Non;Oui;Non;Non;Symtome;2;82;1;0;2
+221;71;Feminin;N;Negatif;0;0;0;0;0;0;11,92;-0,01;1,94;0,79;2,46;1,66;4,65;0,46;67;170;Non;Oui;Non;Cuir Chevelu;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;23;0;0;2
+231;59;Feminin;N;Negatif;0;0;0;0;0;0;10,86;-0,02;1,92;1,78;2,14;1,54;2;1,98;54;167;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;19;0;0;1
+241;60;Masculin;Kinsitu;Positif;0;0;0;0;1,98;0;11,93;0,03;1,24;0,86;5,26;2,23;3,25;0,54;68;167;Non;Non;Non;Prostate;Non;Non;Oui;Non;Non;Non;Non;Non;Symtome;2;24;1;1;1
+249;63;Masculin;Ad+10;Negatif;0;0;0;0;0;0;12,32;-0,02;1,15;0,65;3,3;0,97;1,19;0,25;88;172;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;2;29;0;0;2
+252;58;Masculin;N;Negatif;0;0;0;0;0;0;11,77;-0,01;1,29;1,14;3,39;1,96;0,87;0,44;89;182;Oui;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;1;26;0;0;1
+258;43;Feminin;N;Negatif;0;0;0;0;0;0;12,04;-0,02;1,1;0,8;4,21;2,19;2,5;0,06;58;158;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;23;0;0;1
+266;61;Masculin;K;Negatif;0;0;0;0;0;0;;;;;;;;;92;174;Non;Non;Non;Prostate;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;DepistageII;2;30;0;0;2
+268;70;Feminin;K;Positif;1;5,17;6,28;0;8,3;0;11,49;0,03;1,89;0,55;2,5;2,43;1,28;1,74;59;150;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;26;1;1;2
+276;63;Masculin;N;;0;0;0;0;0;0;12,11;-0,01;0,82;1,6;6,35;0,57;1,51;0,67;-97;-97;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;-103;;0;2
+279;48;Masculin;N;Negatif;0;0;0;0;0;0;12,08;-0,02;1,09;0,66;3,82;1,45;2,48;0,71;83;178;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Oui;Non;Oui;Non;Non;Symtome;1;26;0;0;1
+281;50;Feminin;K;Positif;0;0;0;0;2,1;4,13;11,82;-0,02;0,32;2,27;6,42;1,43;3,66;1,17;58;156;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;23;1;1;1
+282;59;Masculin;Ad;Negatif;0;0;0;0;0;0;11,77;0,03;0,37;0,19;4,69;3,21;1,63;2,08;103;183;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;30;0;0;1
+283;33;Masculin;N;Negatif;0;0;0;0;0;0;;;;;;;;;85;185;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+287;58;Masculin;N;Negatif;0;0;0;0;0;0;12,1;0,05;1,49;0,94;4,49;2,47;0,66;2,64;86;170;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;29;0;0;1
+291;46;Feminin;N;Negatif;0;0;0;0;0;0;11,93;0,01;1,42;1,32;3,02;0,99;4,25;0,61;58;170;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Oui;Non;Non;Symtome;1;20;0;0;1
+293;76;Masculin;K;Positif;0;3,12;0;0;2,9;0;11,71;-0,01;0,74;0,88;5,16;0,91;1,25;0,21;57;-97;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;Symtome;2;60;1;1;2
+294;84;Masculin;N;Negatif;0;0;0;0;0;0;10,96;0;1,66;0,35;1,05;1;2,62;0,49;66;167;Non;Non;Non;Prostate;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;23;0;0;2
+298;73;Feminin;K;Negatif;0;0;0;0;0;0;11,74;-0,02;0,48;1,74;3,84;1,04;1,59;0,94;62;161;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;2;23;0;0;2
+301;79;Feminin;K;;0;0;0;0;0;1,2;;;;;;;;;130;160;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Non;Oui;Non;Non;DepistageII;2;50;;0;2
+302;59;Masculin;K;Positif;0;3,16;3,5;0;3,19;0;11,75;0;1,05;1;3,75;0,95;2,55;0,63;74;165;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Depistage;2;27;1;1;1
+305;50;Masculin;N;Negatif;0;0;0;0;1,9;0;11,21;0,03;0,82;1,12;3,36;1,56;2,7;1,58;70;168;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;24;0;1;1
+306;74;Masculin;?;;0;0;0;0;0;0;11,93;-0,01;1,48;0,61;2,58;1,47;2,24;0,93;78;174;Non;Non;Non;Prostate;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;25;;0;2
+308;53;Feminin;N;Negatif;0;0;0;0;0;0;12,18;-0,02;1,26;0,69;4,32;2,93;0,53;0,26;80;158;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Depistage;1;32;0;0;1
+309;60;Feminin;N;Negatif;0;0;0;0;0;0;11,93;-0,01;1,53;1,1;3,23;2,67;2,18;0,45;62;162;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;23;0;0;1
+310;85;Feminin;K;Negatif;1;0;0;0;0;0;11,85;-0,01;1,19;1,63;3,03;1,77;0,96;0,33;52;160;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Non connu;Non;Non;Non;Depistage;2;20;0;0;2
+316;62;Masculin;N;Negatif;0;0;0;0;0;0;11,7;-0,02;0,57;2,76;2,38;1,21;1,95;1,53;73;175;Oui;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;1;23;0;0;2
+320;57;Masculin;N;Negatif;0;0;0;0;0;0;11,98;-0,02;0,69;0,55;4,46;6;1,74;0;87;191;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;23;0;0;1
+337;48;Feminin;N;Negatif;0;0;0;0;0;0;11,7;0;2;0,7;2,4;3;2,8;1,2;66;176;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;1
+344;48;Feminin;K;Negatif;0;0;0;0;0;1,27;12,17;-0,02;0,95;1,02;6,02;2,35;2,57;0,4;59;157;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;2;23;0;0;1
+347;51;Feminin;N;Negatif;0;0;0;0;0;0;;;;;;;;;53;156;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;DepistageII;1;21;0;0;1
+349;61;Masculin;N;Negatif;0;0;0;0;0;0;11,87;-0,01;1,32;1,29;4,63;5,44;2,41;0,19;65;165;Non;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Depistage;1;23;0;0;2
+351;64;Masculin;N;Negatif;0;0;0;0;0;0;;;;;;;;;83;180;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;25;0;0;2
+365;76;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,86;0,03;0,78;1,14;1,81;3,47;2,72;0,67;69;173;Non;Oui;Non;Prostate;Non;Oui et traite;Non;Non;Oui;Oui;Non;Non;DepistageII;2;23;0;0;2
+376;76;Masculin;K;Positif;0;0;0;0;0;1,53;10,56;-0,01;1,23;0,81;4,01;1,93;2,1;0,13;72;169;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;Depistage;2;25;1;0;2
+382;89;Masculin;Ad+10;Negatif;0;0;0;0;0;0;12,18;-0,02;0,99;0,77;3,53;6,32;2,58;0,62;72;172;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;DepistageII;2;24;0;0;2
+390;61;Feminin;N;Negatif;1;0;0;0;0;0;;;;;;;;;88;160;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;34;0;0;2
+392;54;Feminin;N;Negatif;0;0;0;0;0;0;11,54;-0,01;1,32;1,82;2,47;0,93;1,51;1,23;65;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;25;0;0;1
+393;67;Feminin;N;Negatif;0;0;0;0;0;0;11,88;-0,01;0,93;0,69;1,53;0,68;2,5;1,04;57;156;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Oui;Non;Oui;Non;Non;Symtome;1;23;0;0;2
+394;59;Feminin;N;Negatif;1;0;0;0;0;0;;;;;;;;;59;153;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;25;0;0;1
+397;52;Masculin;N;Negatif;0;0;0;0;0;0;11,91;-0,01;0,94;1,9;2,6;1,96;2,6;0,84;79;186;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Depistage;1;22;0;0;1
+398;44;Feminin;N;Negatif;0;0;0;0;0;0;12,08;0;0,78;1,22;1,66;0,96;0,59;0,74;70;163;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Non;Depistage;1;26;0;0;1
+399;63;Feminin;N;Negatif;0;0;0;0;0;0;12,04;-0,01;1,29;1,02;3,78;1,82;2,34;0,83;54;156;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;22;0;0;2
+400;67;Masculin;N;Negatif;0;0;0;0;0;0;11,91;0;1,29;1,12;1,3;0,83;2,78;0,68;62;168;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Oui;Oui;Non;Non;Depistage;1;21;0;0;2
+403;40;Feminin;N;Negatif;0;0;0;0;0;0;11,33;-0,01;1,13;0,86;3,22;1,78;1,76;1,26;80;160;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;DepistageII;1;31;0;0;1
+404;59;Feminin;K;Negatif;1;4,03;0;0;6,34;0;12,3;0;1,1;1,17;2,96;2,39;3,26;0,74;52;163;Non;Non;Colon;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;19;0;1;1
+410;53;Feminin;N;Negatif;0;0;0;0;0;0;12,18;0;0,96;0,75;3,68;2,83;2,2;0,5;66;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Depistage;1;25;0;0;1
+414;63;Masculin;K;Positif;1;0;0;0;0;0;12,17;0;1,47;1,11;3,86;2,54;2,54;0,87;72;170;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;24;1;0;2
+419;60;Masculin;Ad;Negatif;0;0;0;0;0;0;12,44;0;1,24;1,59;3,3;2,47;3,14;0,86;75;168;Non;Oui;Rectum;Non;Non;Non;Non;Oui;Non;Non;Non;Non;DepistageII;1;26;0;0;1
+431;53;Feminin;K;Negatif;0;0;0;0;0;0;;;;;;;;;54;153;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;23;0;0;1
+442;48;Feminin;N;Negatif;0;0;0;0;0;0;11,38;0,07;2,34;3,86;1,11;2,48;2,06;2,45;61;162;Non;Non;Non;Non;Non;Oui, mais non traite;Oui;Oui;Non;Oui;Non;Non;Depistage;1;23;0;0;1
+449;78;Feminin;Ad+10;Negatif;1;0;0;0;0;0;11,52;0;0,93;1,01;3,34;3,24;2,96;1,53;60;160;Non;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;2;23;0;0;2
+450;44;Masculin;K;Positif;0;0;0;0;0;2,53;11,84;-0,01;1,24;0,85;2,53;3,77;2,17;0,53;63;176;Non;Non;Rectum;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;20;1;0;1
+451;78;Masculin;K;Positif;0;0;0;0;0;0,81;11,71;-0,01;1,49;0,86;3,31;0,67;2,42;0,96;55;168;Non;Non;Non;Vessie;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Depistage;2;19;1;0;2
+459;63;Masculin;K;Negatif;0;0;0;0;0;1,73;12,02;-0,01;1,54;0,61;2,38;1,93;2,26;0,25;98;184;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Depistage;2;28;0;0;2
+460;77;Feminin;N;Negatif;0;0;0;0;0;0;12,12;0;0,93;1,13;3,9;1,45;0,86;0,88;62;165;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;22;0;0;2
+461;57;Masculin;N;Negatif;0;0;0;0;0;0;11,62;0,02;1,56;1,64;4,7;2,09;6,35;2,39;96;183;Non;Non;Non;Prostate;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;28;0;0;1
+473;64;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,68;0;1,57;1,12;2,05;2,09;2,03;0,43;88;176;Non;Non;Non;Peau;Non;Oui et traite;Non;Oui;Oui;Oui;Non;Non;Depistage;2;28;0;0;2
+474;60;Feminin;Ad+10;Negatif;0;0;0;0;0;0;11,98;0,01;0,68;2,56;4,48;2,35;2,37;1,05;74;168;Non;Oui;Non;Non;Non;Non;Non;Oui;Oui;Oui;Non;Non;DepistageII;2;26;0;0;1
+475;19;Feminin;N;Negatif;1;0;0;0;0;0;12,02;0;1,15;0,78;4,66;1,22;3,35;0,88;48;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;18;0;0;1
+476;59;Feminin;N;Negatif;0;0;0;0;0;0;11,95;-0,01;1,12;1,34;3,34;0,81;1,87;0,59;75;170;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;25;0;0;1
+496;59;Feminin;Ad;Positif;0;0;0;0;0;0;11,96;0,02;1,32;1,1;1,88;3,85;2,96;0,63;54;160;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Oui;Oui;Non;Non;Depistage;1;21;1;0;1
+500;62;Feminin;Ad;Negatif;0;0;0,7;0;0;0;11,91;-0,01;1,08;1,1;4,79;1,73;2,51;0,71;59;169;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;20;0;0;2
+502;71;Masculin;K;Negatif;0;0;1,98;0;0;1,46;11,55;0,01;1,65;0,29;2,29;2,6;2,55;1,9;80;192;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Symtome;2;21;0;0;2
+503;87;Feminin;K;Negatif;0;0;0;0;0;0;11,97;0,03;1,53;0,94;6,12;3,9;2,74;0,74;35;152;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;15;0;0;2
+504;56;Feminin;K;Positif;0;0;0;0;0;0;11,59;-0,01;1,48;1;3,9;1,58;2,69;0,88;62;165;Non;Non;Non;Non;Non;Oui et traite;Oui;Non;Non;Oui;Non;Non;Symtome;2;22;1;0;1
+505;73;Masculin;K;Negatif;1;4,88;4,56;0;9,31;0;11,55;0,01;1,65;0,29;2,29;2,6;2,55;1,9;53;177;Non;Non;Non;Vessie;Non;Non;Non;Non;Oui;Oui;Non;Non;Symtome;2;16;0;1;2
+506;60;Masculin;K;Positif;0;0;0;0;0;0;11,51;0,01;2,32;1,05;3,21;3,13;2,58;1,41;75;170;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;2;25;1;0;1
+507;72;Feminin;Ad;Negatif;0;0;0;0;0;0;11,51;0,03;2,45;1,36;5,38;1,66;6,18;1,76;68;146;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;31;0;0;2
+508;73;Masculin;K;Negatif;0;0;0;0;0;0;11,55;0,01;1,65;0,29;2,29;2,6;2,55;1,9;75;176;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;24;0;0;2
+509;86;Feminin;K;Positif;0;0;0;0;0;0;11,51;0,01;2,32;1,05;3,21;3,13;2,58;1,41;63;165;Non;Non;Non;Sein;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;2;23;1;0;2
+510;53;Masculin;Ad;Negatif;0;0;0;0;0;0;11,79;-0,04;1,77;1,03;2,72;2,22;1,03;0,2;88;170;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Depistage;1;30;0;0;1
+534;47;Feminin;N;Negatif;0;0;0;0;0;0;11,34;-0,01;1,28;1,06;3,5;1,24;2,3;0,5;55;165;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Oui;Non;Non;Symtome;1;20;0;0;1
+539;49;Masculin;Ad;Negatif;0;0;0;0;0;1,54;11,75;0,03;0,97;2,16;4,65;1,31;1,61;1,14;63;177;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;20;0;0;1
+542;46;Feminin;N;Negatif;0;0;0;0;0;0;12,75;0,03;3,4;1,85;6,23;2,2;3,31;1,79;70;155;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;29;0;0;1
+543;55;Masculin;Villeuse;Negatif;0;0;0;0;0;0;12,71;-0,01;2,7;1,57;3,21;2,08;3,43;1,11;83;184;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;DepistageII;2;24;0;0;1
+547;57;Masculin;N;Negatif;0;0;0;0;0;0;11,94;0,05;1,35;1,1;4,5;4,44;3,31;0,82;68;165;Oui;Non;Non;Prostate;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+548;58;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,93;-0,01;0,83;0,95;5,19;2,1;2,35;0,47;75;186;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;2;21;0;0;1
+550;52;Masculin;K;Negatif;0;0;0;0;0;0;;;;;;;;;67;172;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Depistage;2;22;0;0;1
+551;72;Masculin;K;Positif;0;1,99;;;9,5;1,26;11,82;0,01;1,57;0,4;4,48;1,74;1,23;0,87;64;169;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Oui;Oui;Non;Non;Symtome;2;22;1;1;2
+552;55;Feminin;K;Positif;0;0;0;0;0;0;12,25;0,01;1,31;1,48;4,84;2,16;2,33;0,9;64;160;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;25;1;0;1
+558;67;Feminin;N;Negatif;0;0;0;0;0;0;12,37;0,01;1,92;2,33;3,62;0,95;3,24;1,07;63;149;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;1;28;0;0;2
+564;55;Masculin;Villeuse;Negatif;0;0;0;0;0;0;12,72;0;1,81;1,7;3,54;1,95;2,77;0,84;79;176;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Non;Non;Depistage;2;25;0;0;1
+566;51;Masculin;N;Negatif;0;0;0;0;0;0;12,42;-0,01;1,17;1,24;4,78;2,19;2,68;1,52;70;178;Non;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;1;22;0;0;1
+568;35;Masculin;N;Negatif;0;0;0;0;0;0;12,29;0,02;1,6;2,23;5,34;1,66;6,52;1,4;58;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;1;22;0;0;1
+587;79;Feminin;K;Negatif;0;0;0;0;0;0;12,13;-0,01;1,33;1,15;2,64;1,11;2,24;0,5;51;156;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;2;20;0;0;2
+606;64;Masculin;Ad;Negatif;1;0;0;0;0;0;11,95;0,02;1,24;1,44;6,59;4,66;2,62;0,72;85;182;Non;Oui;Colon;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;1;25;0;0;2
+617;80;Feminin;Villeuse;Negatif;0;0;0;0;0;0;12,41;0,01;0,71;3,14;4,89;1,66;2,15;1,73;55;154;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;2;23;0;0;2
+626;66;Masculin;Ad;Negatif;1;0;0;0;0;0;12,39;0,04;1,63;1,74;5,33;1,41;2,55;0,99;58;170;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Oui;Non;Non;Symtome;1;20;0;0;2
+628;51;Masculin;K;Negatif;0;0;0;0;0;1;12;-0,01;0,87;0,69;5,06;3,66;2,42;0,62;61;160;Non;Non;Colon;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;23;0;0;1
+636;58;Masculin;K;Positif;0;0;0;0;0;1,31;11,53;-0,02;1,38;0,75;5,67;0,68;2,43;0,34;85;174;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;28;1;0;1
+643;66;Masculin;Ad;Negatif;0;0;0;0;0;0;12,11;0;1,79;1,57;3,1;2,34;2,77;0,95;82;183;Oui;Oui;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;DepistageII;1;24;0;0;2
+652;64;Masculin;K;Positif;1;2,05;;;3,98;1,63;12,28;-0,01;0,92;0,84;2,81;1,42;1,99;0,26;52;157;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;21;1;1;2
+654;51;Masculin;K;Negatif;0;0;0;0;0;1,49;11,51;-0,02;1,21;0,62;5,71;0,77;2,39;-0,12;100;182;Non;Non;Rectum;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;30;0;0;1
+664;59;Feminin;Ad;Positif;0;0;0;0;0;0;12,41;0,04;3,68;2,53;6,84;2,36;5,33;3,75;78;-97;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;82;1;0;1
+666;45;Masculin;Ad;Negatif;0;0;0;0;0;0;12,14;0,03;1,35;1,98;3,31;1,09;2,75;1,39;78;180;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+667;67;Masculin;K;Positif;0;0;0;0;0;0;12,25;-0,01;1,12;0,91;2,33;1,97;2,58;0,3;75;172;Non;Non;Rectum;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;DepistageII;2;25;1;0;2
+679;45;Masculin;N;Negatif;0;0;0;0;0;0;12,17;0,04;1,76;1,89;4,72;1,83;2,49;1;115;183;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;34;0;0;1
+681;67;Masculin;K;Positif;0;0;0;0;0;0;;;;;;;;;79;170;Non;Non;Non;Prostate;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;27;1;0;2
+683;51;Feminin;N;Negatif;0;0;0;0;0;0;11,4;0,03;1,2;1,49;3,29;2,33;1,52;0,93;70;160;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;Symtome;1;27;0;0;1
+684;67;Masculin;N;Negatif;0;0;0;0;0;0;12,76;0,01;1,71;1,65;2,94;2,4;3,58;1,05;71;167;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;Symtome;1;25;0;0;2
+686;79;Feminin;K;Positif;0;0;0;0;0;0;;;;;;;;;65;156;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;26;1;0;2
+692;48;Feminin;Ad;Positif;0;0;0;0;0;0;12,38;0,01;1,49;1,52;3,68;2,48;3,03;0,79;55;170;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Oui;Non;Non;DepistageII;1;19;1;0;1
+694;68;Feminin;Villeuse;Positif;0;2,96;;;8,13;1,6;11,03;0;1,92;0,71;2,34;0,92;1,79;1,06;54;162;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;20;1;1;2
+696;52;Masculin;K;Negatif;0;0;0;0;0;0;11,97;0,01;1,08;1,77;3,15;1,16;3,51;1,81;61;160;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;2;23;0;0;1
+701;49;Masculin;N;Negatif;0;0;0;0;0;0;;;;;;;;;90;176;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;29;0;0;1
+709;59;Masculin;N;Negatif;0;0;0;0;0;0;12,71;0,01;1,47;1,57;3,2;1,86;3,17;0,66;93;185;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;27;0;0;1
+716;60;Feminin;N;Negatif;0;0;0;0;0;0;11,75;-0,01;1,72;0,49;4,1;2,81;1,09;0,29;72;160;Non;Non;Non;Non;Non;Oui, mais non traite;Non;Non;Oui;Oui;Non;Non;Depistage;1;28;0;0;1
+719;49;Feminin;N;Negatif;0;0;0;0;0;0;12,5;-0,01;1,03;1,36;6,13;1,85;2,74;0,97;56;155;Oui;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;1;23;0;0;1
+720;50;Masculin;Ad;Negatif;0;0;0;0;0;0;11,92;0,01;1,69;1,13;6,92;5,49;2,5;0,72;78;180;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+721;62;Feminin;N;Positif;0;0;0;0;0;0;12,46;0,09;1,29;0,69;5,99;1,99;3,63;5,47;45;150;Non;Oui;Non;Non;Non;Non;Oui;Oui;Non;Oui;Non;Non;DepistageII;1;20;1;0;2
+722;45;Feminin;N;Positif;0;0;0;0;0;3,49;11,35;-0,01;1,13;0,7;4;2,65;0,89;0,41;71;160;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;1;27;1;0;1
+724;79;Feminin;K;Positif;0;0;0;0;0;0;11,82;0,01;1,15;0,37;3,35;0,9;2,07;0,42;80;168;Non;Non;Non;Sein;Non;Non;Non;DM;Non connu;Oui;Non;Non;Symtome;2;28;1;0;2
+726;72;Feminin;N;Negatif;0;0;0;0;0;0;12,09;0,02;1,13;1,88;3,39;3,85;2,37;0,93;57;150;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;1;25;0;0;2
+728;64;Feminin;N;Negatif;0;0;0;0;0;0;12,02;0;1,44;1,76;4,35;1,46;3,29;1,47;75;157;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;30;0;0;2
+730;38;Feminin;N;Negatif;1;0;0;0;0;0;12,1;0,01;1,39;2,59;3,09;1,15;3,17;2,34;66;174;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;21;0;0;1
+733;52;Feminin;N;Negatif;0;0;0;0;0;0;12,54;0;1,39;1,67;4,03;1,84;1,22;0,76;70;158;Oui;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;28;0;0;1
+734;64;Masculin;K;Negatif;0;0;0;0;0;0;10,49;-0,01;1,02;0,78;2,83;1,62;1,78;0,35;94;178;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;29;0;0;2
+736;77;Masculin;Ad;Negatif;0;0;0;0;0;0;12,52;-0,01;1,11;1,86;2,66;1,53;0,76;1,05;110;182;Non;Oui;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;33;0;0;2
+737;86;Feminin;Villeuse;Negatif;0;0;0;0;0;0;12,37;0,01;1,23;1,34;6,04;3,17;2,84;0,79;72;160;Non;Oui;Non;Non;Non;Oui, mais non traite;Non;Non;Non;Oui;Non;Non;Symtome;2;28;0;0;2
+741;52;Masculin;N;Negatif;0;0;0;0;0;0;11,81;0,15;1,48;0,83;2,6;2,82;1,75;5,78;90;178;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;28;0;0;1
+748;56;Masculin;N;Negatif;0;0;0;0;0;0;12,58;0,02;1,87;2,12;2,7;1,51;1,82;1,13;98;172;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;33;0;0;1
+749;27;Masculin;N;Negatif;1;0;0;0;0;0;11,93;0,01;1,72;1,34;6,24;2,54;3,17;1;74;193;Non;Non;Non;Non;Non;Non;Non;Oui;Oui;Oui;Non;Non;Symtome;1;19;0;0;1
+750;52;Feminin;N;Negatif;0;0;0;0;0;0;12,02;-0,01;1,14;4,32;4,08;1,47;3,87;1,7;63;160;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;24;0;0;1
+751;66;Masculin;N;Negatif;0;0;0;0;0;0;12,32;0,03;0,98;2,11;3,36;3,14;2,84;1,65;74;172;Non;Oui;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;DepistageII;1;25;0;0;2
+753;76;Feminin;N;Negatif;0;0;0;0;0;0;11,99;-0,01;1,23;0,63;4,3;3,01;2,54;0,24;52;161;Non;Oui;Non;Non;Non;Oui, mais non traite;Non;Non;Oui;Oui;Non;Non;Depistage;1;20;0;0;2
+756;28;Feminin;N;Negatif;0;0;0;0;0;0;12,12;-0,02;0,28;1,93;2,74;1,04;3,14;1,86;51;163;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;19;0;0;1
+760;44;Masculin;Ad;Negatif;0;0;0;0;0;0;11,37;-0,01;0,66;1,43;6,26;1,62;3,76;2,1;74;180;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;22;0;0;1
+761;55;Masculin;N;Negatif;0;0;0;0;0;0;11,54;0,01;0,34;2,27;6,25;1,25;3,12;1,36;84;170;Non;Non;Non;Non;Non;Oui et traite;Non;DM;Non;Oui;Non;Non;Symtome;1;29;0;0;1
+762;51;Feminin;N;Negatif;0;0;0;0;0;0;12,12;0;1,14;1,24;1,41;3,42;1,8;0,9;74;172;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;1;25;0;0;1
+763;29;Masculin;N;Negatif;0;0;0;0;0;0;11,69;-0,01;1,06;0,93;3,38;2,11;2,07;0,42;60;160;Non;Non;Non;Non;Non;Oui et traite;Non;DM;Non;Oui;Non;Non;Symtome;1;23;0;0;1
+767;69;Feminin;K;Negatif;1;0;0;0;0;0;11,25;-0,01;1,68;0,94;4,24;0,26;0,87;0,61;59;157;Non;Non;Non;Non;Non;Oui et traite;Oui;DM;Non;Oui;Non;Non;Symtome;2;23;0;0;2
+770;75;Masculin;K;Negatif;0;3,62;;;9,4;0;12,13;-0,02;0,92;0,59;7,13;1,71;2,36;0,14;94;160;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Oui;Oui;Non;Non;Symtome;2;36;0;1;2
+772;69;Feminin;K;Positif;1;4,22;4,25;4,02;8,2;0;11,27;-0,03;1,39;1,35;1,92;1,32;2,26;0,54;70;169;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;2;24;1;1;2
+783;65;Masculin;K;Positif;0;0;0;0;2,12;0;12,31;0,01;1,52;1,35;3,18;2,13;2,78;0,7;82;177;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Depistage;2;26;1;1;2
+788;62;Masculin;K;Positif;0;0;0;0;0;2,54;11,96;-0,01;1,22;0,77;4,05;2,64;1,19;0,43;76;170;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;26;1;0;2
+789;75;Feminin;K;Positif;0;1,69;3,66;;3,88;1,27;12,04;-0,02;1,29;0,51;1,99;0,97;1,32;0,32;74;168;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;26;1;1;2
+790;45;Feminin;Ad;Negatif;0;0;0;0;0;0;12,5;-0,01;1,36;0,68;5,65;2,16;3,04;0,55;64;163;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;24;0;0;1
+792;55;Masculin;Ad;Negatif;1;0;0;0;0;0;12,49;-0,02;1,33;0,96;4,31;2,03;2,3;0,47;79;180;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Depistage;1;24;0;0;1
+812;73;Masculin;K;Negatif;1;0;0;0;0;0;11,96;0;1,65;1;3,57;2,73;3,33;0,45;122;175;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;39;0;0;2
+815;82;Masculin;K;Negatif;0;0;0;0;0;0;11,85;0,01;0,98;1,79;6,47;0,45;4,45;0,9;75;175;Non;Non;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Symtome;2;24;0;0;2
+816;92;Feminin;K;Positif;0;0;0;0;4,1;0;;;;;;;;;54;155;Non;Non;Non;sein, rein;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;2;22;1;1;2
+817;74;Feminin;K;Negatif;0;0;0;0;0;0;11,8;0,05;1,18;1,81;2,13;-0,07;0,43;4,45;50;164;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;2;18;0;0;2
+820;76;Feminin;Ad;Negatif;0;0;0;0;0;0;11,66;0,01;1,23;1,44;2,11;1,12;2,93;0,96;82;155;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;34;0;0;2
+823;81;Feminin;K;Positif;0;0;0;0;3,12;1,58;9,01;-0,02;0,94;0,49;3,33;2,77;1,43;1,03;93;155;Non;Non;Non;Non;Non;Oui et traite;Non;Oui;Non;Oui;Non;Non;Symtome;2;38;1;1;2
+825;65;Masculin;K;Negatif;0;0;0;0;2,96;0;11,73;-0,02;1,98;0,94;2,17;2,77;2,69;2,42;61;160;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Non;Symtome;2;23;0;1;2
+826;77;Masculin;Ad;Positif;1;0;0;0;0;0;11,78;-0,01;0,97;0,62;4,49;4,01;2,47;1,1;63;167;Non;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;1;22;1;0;2
+827;53;Masculin;K;Negatif;0;;3,95;;5,2;1;11,91;-0,01;0,74;0,48;2,53;1,22;2,78;0,38;78;175;Non;Non;Non;Non;Non;Non;Non;Oui;Non;Non;Non;Non;Symtome;2;25;0;1;1
+829;52;Feminin;Ad;Negatif;0;0;0;0;0;0;12,24;0;1,04;1,61;4;2,77;2,75;0,75;69;172;Non;Non;Non;Sein;Non;Non;Non;Oui;Non;Oui;Non;Non;Symtome;1;23;0;0;1
+830;54;Feminin;K;Negatif;1;3,12;;;4,34;0;11,66;0,02;1,72;0,22;2,04;1,38;2,62;0,42;56;159;Oui;Non;Non;Non;Non;Non;Oui;Non;Non;Oui;Non;Non;Symtome;2;22;0;1;1
+839;71;Masculin;Ad+10;Positif;1;2,67;0;0;4,12;1;11,71;0,05;0,91;0,27;2,2;4,48;2;2,19;82;176;Non;Oui;Non;Non;Non;Non;Non;Oui;Non;Oui;Non;Non;DepistageII;2;26;1;1;2
+39;65;Masculin;N;Positif;0;0;0;0;0;0;12,04;-0,02;1,12;0,95;2,68;1,65;2,17;0,37;99;182;Oui;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Depistage;1;29;1;0;2
+51;68;Masculin;Ad+10;Negatif;0;1,7;0;0;2,12;0;11,77;0;1,64;0,57;2,6;2,12;2,37;0,64;70;173;Non;Non;Non;Rein;Oui et traite;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;2;23;0;1;2
+115;72;Masculin;N;Negatif;1;0;0;0;0;0;12,06;-0,02;0,9;3,93;5,03;0;0,57;2,14;63;162;Non;Oui;Non;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Depistage;1;24;0;0;2
+125;72;Feminin;K;Negatif;0;0;0;0;1,9;0;11,81;-0,01;0,91;2,87;4,06;0,99;1,69;1,65;95;161;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;2;36;0;1;2
+166;64;Masculin;N;Negatif;0;0;0;0;0;0;12,2;-0,03;0,62;1,83;3,35;0,48;2,5;0,64;77;170;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Non;Oui;Non;Non;Depistage;1;26;0;0;2
+196;71;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,86;-0,02;0,77;2,96;4;1,24;2,42;0,68;85;172;Oui;Oui;Non;Non;Oui et traite;Non;Oui;Non;Oui;Oui;Oui;Non;Symtome;2;28;0;0;2
+202;87;Feminin;K;Negatif;0;0;0;0;0;0;12,18;-0,02;1,13;0,93;4,78;1,28;2,68;0,21;83;160;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Symtome;2;32;0;0;2
+211;73;Masculin;Ad+10;Negatif;0;0;0;0;0;0;11,73;-0,02;1,11;0,52;3,66;0,89;2,06;0,13;70;163;Non;Oui;Non;Non;Oui et traite;Non;Non;Oui;Oui;Oui;Oui;Non;DepistageII;2;26;0;0;2
+215;53;Feminin;Ad;Negatif;0;0;0;0;0;0;11,43;0,03;0,32;2,85;5,21;5,28;3,2;2,53;80;156;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;1;32;0;0;1
+223;79;Masculin;K;Positif;0;0;0;0;0;0;;;;;;;;;89;171;Non;Non;Non;Poumon;Oui et traite;Non;Oui;Non;Oui;Oui;Oui;Non;Symtome;2;30;1;0;2
+229;64;Masculin;Ad;Negatif;0;0;0;0;0;0;10,11;0,02;1,72;0,27;3,37;1,79;2,16;1,56;75;165;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Depistage;1;27;0;0;2
+275;63;Masculin;K;Negatif;1;0;0;0;3,1;0;12,15;0,01;1,61;1,22;3,44;3,36;0,72;0,55;90;170;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;2;31;0;1;2
+312;68;Masculin;Ad+10;Negatif;1;0;0;0;0;0;11,62;0;0,86;0,78;3,13;1,26;1,81;0,67;78;172;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Oui;Oui;Oui;Oui;Non;Depistage;2;26;0;0;2
+328;73;Feminin;K;Positif;0;0;0;0;0;0;11,7;-0,01;1,46;0,58;2,81;2,36;2,1;0,42;66;160;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Symtome;2;25;1;0;2
+406;68;Feminin;K;Negatif;0;0;0;0;0;1,5;;;;;;;;;49;-97;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Symtome;2;52;0;0;2
+430;80;Masculin;K;Positif;0;3,85;3,38;0;5,78;2,67;11,58;0,03;1,61;0,79;1,3;2,49;0,45;0,81;82;167;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Non;Oui;Non;Non;Symtome;2;29;1;1;2
+495;66;Masculin;Ad;Negatif;0;0;0;0;0;0;11,81;0,01;1,11;2,69;3,47;1,3;1,69;1,73;81;167;Non;Non;Non;Non;Oui et traite;Non;Oui;Oui;Non;Oui;Non;Non;Depistage;1;29;0;0;2
+515;75;Feminin;Ad;Negatif;0;0;0;0;0;0;12,02;0,01;2,54;3,06;2,53;2,59;0,23;3,49;87;170;Oui;Oui;Non;Sein;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;DepistageII;1;30;0;0;2
+596;66;Masculin;Ad;Negatif;0;0;0;0;0;0;12,23;0,02;1,13;0,84;3,06;3,27;2,31;0,81;71;178;Non;Non;Non;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Symtome;1;22;0;0;2
+672;68;Masculin;Ad;Negatif;1;0;0;0;0;0;12,62;0,01;1,39;1,95;4,61;1,7;2,72;1,02;105;170;Non;Oui;Non;Non;Oui et traite;Oui et traite;Non;Non;Non;Oui;Non;Non;DepistageII;1;36;0;0;2
+682;65;Masculin;N;Negatif;0;0;0;0;0;0;11,86;0,02;1,82;1,24;4,86;1,63;2,55;0,72;90;173;Oui;Non;Rectum;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;DepistageII;1;30;0;0;2
+723;79;Feminin;K;Positif;1;0;0;0;3,93;0;12,27;-0,01;0,87;0,94;4,18;2,9;2,65;0,37;53;154;Non;Non;Colon;Non;Oui et traite;Non;Non;Non;Oui;Oui;Oui;Non;Symtome;2;22;1;1;2
+759;74;Masculin;N;Negatif;0;0;0;0;0;0;12,07;0;0,65;1,84;2,7;0,77;2,28;1,32;80;170;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;1;27;0;0;2
+768;69;Feminin;K;Negatif;0;0;0;0;0;0;12,04;-0,01;1,43;0,72;3,29;1,29;1,7;1,2;77;160;Oui;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;2;30;0;0;2
+780;68;Masculin;K;Negatif;0;0;0;0;;1,65;11,81;-0,02;0,88;1,14;3,94;1,14;0,77;0,47;65;168;Non;Non;Non;rein, prostate;Oui et traite;Oui et traite;Non;Oui;Oui;Oui;Oui;Non;Symtome;2;23;0;;2
+824;74;Feminin;K;Negatif;0;0;0;0;0;0;11,54;0,03;1,37;1,35;1,79;1,37;4,53;3,98;63;157;Non;Non;Non;Non;Oui et traite;Non;Oui;DM;Oui;Oui;Oui;Non;Symtome;2;25;0;0;2
+828;67;Masculin;K;Positif;1;;3,35;;4,67;0;12,15;0,01;1,1;0,32;3,71;2,17;2,41;0,85;86;174;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;2;28;1;1;2
+835;52;Masculin;Ad;Positif;0;0;0;0;0;0;12,04;-0,02;1,32;1,31;3,31;3,96;1,92;0,64;98;173;Non;Non;Non;Non;Oui et traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;1;32;1;0;1
+169;65;Feminin;N;Negatif;0;0;0;0;0;0;11,22;0;1,26;0,73;2,87;1,05;1,93;0,63;62;158;Non;Oui;Non;Non;Oui, mais non traite;Oui, mais non traite;Non;Oui;Oui;Non;Oui;Non;DepistageII;1;24;0;0;2
+204;57;Masculin;N;Negatif;0;0;0;0;0;0;11,97;-0,01;1,73;2,86;2,67;2,34;2,64;1,71;93;183;Oui;Non;Non;Non;Oui, mais non traite;Oui, mais non traite;Non;Non;Oui;Oui;Oui;Non;Depistage;1;27;0;0;1
+212;67;Masculin;N;Negatif;0;0;0;0;0;0;11,53;0,02;1,32;0,31;2,85;1,14;1,13;0,48;80;170;Non;Non;Non;Prostate;Oui, mais non traite;Oui et traite;Non;Non;Oui;Oui;Oui;Non;Symtome;1;27;0;0;2
+289;58;Feminin;N;Negatif;0;0;0;0;0;0;12,15;-0,01;0,91;1,33;3,01;2,6;2,11;0,07;60;160;Oui;Non;Intestin grele;Non;Oui, mais non traite;Non;Non;Oui;Oui;Non;Oui;Non;Symtome;1;23;0;0;1
+413;48;Masculin;N;Negatif;0;0;0;0;0;0;12,14;0;2,01;0,7;3,26;1,53;2,38;0,52;78;172;Non;Non;Non;Non;Oui, mais non traite;Non;Oui;Oui;Non;Non;Non;Non;Depistage;1;26;0;0;1
