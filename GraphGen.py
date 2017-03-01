@@ -1,27 +1,6 @@
 # -*- coding: utf-8 -*-
-import csv
-import os
 import networkx as nx
 from operator import itemgetter
-import time
-
-# Function that read the csv file and return a list with a dict for each row
-def readCsv(filename):
-    with open(filename, 'r') as csvfile:
-        csvdata = csv.DictReader(csvfile, delimiter=';')
-        data = []
-
-        for row in csvdata:
-            data.append(row)
-
-        # Transform strings into numbers (floatables only)
-        for row in data:
-            for key in row.keys():
-                try:
-                    row[key] = float(row[key].replace(',', '.'))
-                except ValueError:
-                    continue
-    return data, csvdata.fieldnames
 
 
 # function that generate a graph from a list of dict
@@ -89,6 +68,7 @@ def connectNodesQuantitative(graph, nearest_neighbours=3):
         for key in src_node.keys():
             if is_number(src_node[key]):
                 dist_list = []
+
                 # Computing attribute distance
                 for dst_node_id in node_list:
                     dst_node = graph.node[dst_node_id]
@@ -99,43 +79,14 @@ def connectNodesQuantitative(graph, nearest_neighbours=3):
                         dist = pow(dist, 2)
                         temp = [dst_node_id, dist]
                         dist_list.append(temp)
+
+                # Sorting distance list
                 dist_list.sort(key=itemgetter(1))
+
+                # Connecting k nearest neighbors
                 for i in range(nearest_neighbours - 1):
                     src = src_node_id
                     dst = dist_list[i][0]
                     if not graph.has_edge(src, dst):
                         # graph.add_edge(src, dst, type=str(key))
                         graph.add_edge(src, dst)
-
-
-def is_number(x):  # Check if an element is a number
-    try:
-        float(x)
-        return True
-    except ValueError:
-        return False
-
-
-def saveGraph(graph, name='noname'):
-    filename = "Results/"
-    if graph.is_multigraph():
-        filename += name + "-multigraph"
-    else:
-        filename += name + "-graph"
-
-    filename += time.strftime("_%Y-%m-%d_%Hh%Mm%Ss")
-    nx.write_gml(graph, filename)
-    print('Graph saved as: ' + filename)
-
-
-def saveGraphList(graphList, names):
-    ts = time.strftime("%Y-%m-%d_%Hh%M")
-    dirname = "Results/MultiplesGraphs-" + ts + '/'
-    os.makedirs(dirname, exist_ok=True)
-
-    if len(names) == len(graphList):
-        for index in range(len(names) - 1):
-            filename = dirname + names[index] + '-graph.gml'
-            nx.write_gml(graphList[index], filename)
-    else:
-        print("Error when saving graphs : graphList's size and names's size don't match")

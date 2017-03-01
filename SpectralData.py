@@ -1,9 +1,8 @@
-import math
-import random
+# -*- coding: utf-8 -*-
 import numpy as np
 import networkx as nx
 from sklearn.cluster import KMeans
-import scipy as sc
+# import scipy as sc
 from scipy.sparse import csr_matrix, spdiags
 from scipy.sparse.linalg import eigsh
 
@@ -33,22 +32,26 @@ class SpectralData:
         diag = np.array(deg[0]).astype(float)
         m = spdiags(diag, 0, diag.shape[1], diag.shape[1])
         # calcul des valeurs propres
-        lambdas, maps = eigsh(A=lap, M=m, k=k_dim, sigma=1.0, which='LM')
-        self.normv = maps#/np.amax(maps)
-        #test = maps/np.amax(maps)
-
-        print('Projections built')
+        try:
+            lambdas, maps = eigsh(A=lap, M=m, k=k_dim, sigma=1.0, which='LM')
+            self.normv = maps  # /np.amax(maps)
+            print('Projections built')
+            return True
+        except:
+            print('Cannot build projections')
+            return False
 
     def cluster_nodes(self):
 
-        estimator = KMeans(n_clusters=self.clusterNum, init='k-means++', precompute_distances=True, n_init=20, max_iter=1000)
-        #estimator = KMeans(n_clusters=2, init='k-means++', precompute_distances=True, n_init=20,max_iter=1000)
+        estimator = KMeans(n_clusters=self.clusterNum, init='k-means++', precompute_distances=True, n_init=20,
+                           max_iter=1000)
+        # estimator = KMeans(n_clusters=2, init='k-means++', precompute_distances=True, n_init=20,max_iter=1000)
 
         estimated_labels = estimator.fit_predict(self.normv)
         nodes = self.graph.nodes()
         self.clusters = {}
         for i in range(0, self.clusterNum):
-            k = []#liste des noeuds du meme cluster
+            k = []  # liste des noeuds du meme cluster
             for j in range(len(estimated_labels)):
                 if estimated_labels[j] == i:
                     k.append(j)
@@ -68,7 +71,7 @@ class SpectralData:
             max_value = 0
             max_node_id = ''
             if method == 'centrality':
-                #Searching for node with maximal centrality
+                # Searching for node with maximal centrality
                 s = 1.0 / (len(subgraph) - 1.0)
                 centrality = dict((n, d * s) for n, d in subgraph.degree_iter())
                 for key in centrality:
@@ -77,7 +80,7 @@ class SpectralData:
                         max_node_id = key
                 center_node = [max_node_id, max_value]
             elif method == 'degree':
-                #Searching for node with max degree
+                # Searching for node with max degree
                 for key in members:
                     if self.graph.degree(key) > max_value:
                         max_value = self.graph.degree(key)
@@ -86,7 +89,6 @@ class SpectralData:
         else:
             center_node = [subgraph.nodes()[0], 0]
         return center_node
-
 
     def clusterize(self):
         print('Clustering')

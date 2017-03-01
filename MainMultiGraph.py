@@ -2,11 +2,12 @@
 import numpy as np
 import networkx as nx
 from SpectralData import SpectralData
-from csv_to_multigraph import *
+from GraphGen import *
+from GraphTools import *
 
 # importation des données à partir du fichier csv
 file = "Data\FirstSet_09-2012_V2.csv"
-persons, fieldnames = readCsv(file)
+persons, fieldnames = csvToDictList(file)
 print("Importation OK")
 
 # Generating graphs
@@ -42,16 +43,17 @@ for g in multiple_graphs:
     sd.clusterNum = 30
     sd.graph = g
     SpectralDataList.append(sd)
-    
+
+saveGraphList(multiple_graphs, names)
 
 # Processing
 resultGraphList = []
 for elem in SpectralDataList:
-    elem.buildProjections()
-    elem.clusterize()
+    if elem.buildProjections():
+        elem.clusterize()
     resultGraphList.append(elem.graph)
 
-saveGraphList(resultGraphList,names)
+saveGraphList(resultGraphList, names)
 
 # iterations = []
 # for i in range(5):
