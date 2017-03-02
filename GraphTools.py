@@ -3,6 +3,9 @@ import csv
 import os
 import networkx as nx
 import time
+import zipfile
+import zlib
+import shutil
 
 
 # Function that read a csv file and return a list with a dict for each row
@@ -46,12 +49,26 @@ def saveGraph(graph, name='noname'):
 
 def saveGraphList(graphList, names):
     ts = time.strftime("%Y-%m-%d_%Hh%M")
-    dirname = "Results/MultiplesGraphs-" + ts + '/'
+    dirname = "Results/MultiGraph-" + ts
+    zipname = dirname + '.zip'
+    dirname += '/'
     os.makedirs(dirname, exist_ok=True)
 
+    # Creating files
     if len(names) == len(graphList):
         for index in range(len(names) - 1):
             filename = dirname + names[index] + '-graph.gml'
             nx.write_gml(graphList[index], filename)
     else:
         print("Error when saving graphs : graphList's size and names's size don't match")
+
+    # Compressing files
+    zf = zipfile.ZipFile(zipname, mode='w', compression=zipfile.ZIP_LZMA)
+    for dirname, subdirs, files in os.walk(dirname):
+        #zf.write(dirname)
+        for filename in files:
+            zf.write(os.path.join(dirname, filename),filename)
+    zf.close()
+
+    # Cleaning files
+    shutil.rmtree(dirname)

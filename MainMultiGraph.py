@@ -15,7 +15,7 @@ multiple_graphs, names = genMultipleGraphs(persons, fieldnames)
 for g in multiple_graphs:
     # nx.k_core(g, 2)# Recuperation du sous-graph avec des noeuds de degré 2 au moins
     g = g.to_undirected()  # Conversion en graph non-dirigé
-print("Importation OK")
+print("Generation OK")
 
 # Creating edges
 i = 0
@@ -28,32 +28,26 @@ for graph in multiple_graphs:
     i += 1
 print("Edges creation OK")
 
-# g = genGraph(persons, fieldnames)
-# g = genGraph(persons, fieldnames,multigraph=True)
-# connectNodesQualitative(g)
-# connectNodesQuantitative(g, nearest_neighbours=3)
-# saveGraph(g, 'cancer')
-
 
 # Initialisation de l'analyse spectrale
-SpectralDataList = []
-
-for g in multiple_graphs:
-    sd = SpectralData()
-    sd.clusterNum = 30
-    sd.graph = g
-    SpectralDataList.append(sd)
-
-saveGraphList(multiple_graphs, names)
-
-# Processing
-resultGraphList = []
-for elem in SpectralDataList:
-    if elem.buildProjections():
-        elem.clusterize()
-    resultGraphList.append(elem.graph)
-
-saveGraphList(resultGraphList, names)
+# SpectralDataList = []
+#
+# for g in multiple_graphs:
+#     sd = SpectralData()
+#     sd.clusterNum = 30
+#     sd.graph = g
+#     SpectralDataList.append(sd)
+#
+# saveGraphList(multiple_graphs, names)
+#
+# # Processing
+# resultGraphList = []
+# for elem in SpectralDataList:
+#     if elem.buildProjections():
+#         elem.clusterize()
+#     resultGraphList.append(elem.graph)
+#
+# saveGraphList(resultGraphList, names)
 
 # iterations = []
 # for i in range(5):

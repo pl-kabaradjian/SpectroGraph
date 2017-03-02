@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import networkx as nx
 from operator import itemgetter
+from GraphTools import *
 
 
 # function that generate a graph from a list of dict
