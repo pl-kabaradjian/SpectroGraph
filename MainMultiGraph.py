@@ -4,8 +4,9 @@ import networkx as nx
 from SpectralData import SpectralData
 from GraphGen import *
 from GraphTools import *
+from MultiGraph import MultiGraph
 
-# importation des données à partir du fichier csv
+# Importation des données à partir du fichier csv
 file = "Data\FirstSet_09-2012_V2.csv"
 persons, fieldnames = csvToDictList(file)
 print("Importation OK")
@@ -17,6 +18,7 @@ for g in multiple_graphs:
     g = g.to_undirected()  # Conversion en graph non-dirigé
 print("Generation OK")
 
+
 # Creating edges
 i = 0
 for graph in multiple_graphs:
@@ -27,6 +29,15 @@ for graph in multiple_graphs:
         connectNodesQualitative(graph)
     i += 1
 print("Edges creation OK")
+
+# Creating Multigraph object
+MG = MultiGraph()
+MG.nodes = persons
+MG.graphs = multiple_graphs
+MG.fieldnames = names
+
+# Saving MG to disk
+MG.save()
 
 
 # Initialisation de l'analyse spectrale
@@ -65,6 +76,6 @@ print("Edges creation OK")
 #             if node in current_cluster['members']:
 #                 hist[node].append(current_cluster['center'])
 
-# saving results
-saveGraphList(multiple_graphs, names)
-print('Graphs saved')
+# # saving results
+# saveGraphList(multiple_graphs, names)
+# print('Graphs saved')

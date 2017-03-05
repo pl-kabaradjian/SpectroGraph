@@ -49,26 +49,35 @@ def saveGraph(graph, name='noname'):
 
 def saveGraphList(graphList, names):
     ts = time.strftime("%Y-%m-%d_%Hh%M")
-    dirname = "Results/MultiGraph-" + ts
-    zipname = dirname + '.zip'
-    dirname += '/'
+    path = "Results/MultiGraph-" + ts
+    dirname = path + '/'
     os.makedirs(dirname, exist_ok=True)
 
     # Creating files
     if len(names) == len(graphList):
         for index in range(len(names) - 1):
-            filename = dirname + names[index] + '-graph.gml'
+            filename = dirname + names[index] + '.gml'
             nx.write_gml(graphList[index], filename)
+        return {'dirname': dirname, 'path':path}
     else:
         print("Error when saving graphs : graphList's size and names's size don't match")
+        return {}
 
+
+def compressFolder(folder_path, clean=True, algo=zipfile.ZIP_LZMA):
     # Compressing files
-    zf = zipfile.ZipFile(zipname, mode='w', compression=zipfile.ZIP_LZMA)
-    for dirname, subdirs, files in os.walk(dirname):
-        #zf.write(dirname)
+    zf = zipfile.ZipFile(folder_path + '.zip', mode='w', compression=algo)
+    folder_path += '/'
+    for dirname, subdirs, files in os.walk(folder_path):
+        # zf.write(dirname) # Uncomment to create the folder in the zip
         for filename in files:
-            zf.write(os.path.join(dirname, filename),filename)
+            zf.write(os.path.join(dirname, filename), filename)
     zf.close()
+    print('Folder \'' + folder_path + '\' compressed')
 
     # Cleaning files
-    shutil.rmtree(dirname)
+    if clean:
+        shutil.rmtree(dirname)
+        print('Original files cleaned')
+    else:
+        print('Original files kept')
