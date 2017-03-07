@@ -47,9 +47,18 @@ def saveGraph(graph, name='noname'):
     print('Graph saved as: ' + filename)
 
 
-def saveGraphList(graphList, names):
-    ts = time.strftime("%Y-%m-%d_%Hh%M")
-    path = "Results/MultiGraph-" + ts
+def saveGraphList(graphList, names, location='', timestamp=True):
+    # Removing end slash if needed
+    if location[-1] == '/':
+        path = location[:-1]
+    else:
+        path = location
+
+    # Adding timestamp
+    if timestamp:
+        ts = time.strftime("-%Y-%m-%d_%Hh%M")
+        path += ts
+
     dirname = path + '/'
     os.makedirs(dirname, exist_ok=True)
 
@@ -58,7 +67,7 @@ def saveGraphList(graphList, names):
         for index in range(len(names) - 1):
             filename = dirname + names[index] + '.gml'
             nx.write_gml(graphList[index], filename)
-        return {'dirname': dirname, 'path':path}
+        return {'dirname': dirname, 'path': path}
     else:
         print("Error when saving graphs : graphList's size and names's size don't match")
         return {}

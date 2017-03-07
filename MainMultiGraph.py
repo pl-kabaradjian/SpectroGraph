@@ -37,7 +37,7 @@ MG.graphs = multiple_graphs
 MG.fieldnames = names
 
 # Saving MG to disk
-MG.save()
+MG.save(location='Results/MultiGraph', ts=True, clean_files=True)
 
 
 # Initialisation de l'analyse spectrale

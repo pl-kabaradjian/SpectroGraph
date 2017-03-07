@@ -2,6 +2,7 @@ import networkx as nx
 from GraphTools import *
 import csv
 
+
 class MultiGraph:
     def __init__(self):
         self.nodes = [{}]
@@ -9,14 +10,11 @@ class MultiGraph:
         self.fieldnames = []
 
     def load(self, filename="MultiGraph.zip"):
-
-
-
         print('')
 
-    def save(self):
+    def save(self, location='Results/MultiGraph', ts=True, clean_files=True):
         # Creating gmls
-        paths = saveGraphList(self.graphs, self.fieldnames)
+        paths = saveGraphList(self.graphs, self.fieldnames, location, ts)
         print('*.gml created')
 
         # Creating fieldnames.csv
@@ -34,4 +32,4 @@ class MultiGraph:
         nodes_file.close()
         print('nodes.csv created')
 
-        compressFolder(paths['path'], clean=True)
+        compressFolder(paths['path'], clean=clean_files)
