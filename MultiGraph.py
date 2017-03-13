@@ -7,8 +7,8 @@ from io import StringIO, BytesIO
 
 class MultiGraph:
     def __init__(self):
-        self.nodes = [{}]
-        self.graphs = [nx.Graph()]
+        self.nodes = []
+        self.graphs = []
         self.fieldnames = []
 
     def load(self, filename="MultiGraph.zip"):
@@ -24,20 +24,22 @@ class MultiGraph:
                 has_fn_file = True
                 # data = archive.open(filename, 'r')
                 data = BytesIO(archive.read(filename))
-                data = data.read().decode('utf-8')
+                data = data.read().decode('utf-8').split('\n')
                 rdr = csv.reader(data, delimiter=';')
                 self.fieldnames = next(rdr)
 
+        for filename in filenamelist:
             if filename == 'nodes.csv':
                 has_node_file = True
                 # data = archive.open(filename, 'r')
                 # data = StringIO(archive.read(filename))
                 data = BytesIO(archive.read(filename))
-                data = data.read().decode('utf-8')
-                node_reader = csv.DictReader(data, delimiter=';')
+                data = data.read().decode('utf-8').split('\n')
+                node_reader = csv.DictReader(data, delimiter=';',fieldnames=self.fieldnames)
                 for node in node_reader:
                     self.nodes.append(node)
 
+        for filename in filenamelist:
             if filename.endswith('.gml'):
                 nb_gml += 1
                 data = archive.open(filename)

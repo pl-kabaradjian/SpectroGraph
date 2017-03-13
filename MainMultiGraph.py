@@ -6,6 +6,7 @@ from GraphGen import *
 from GraphTools import *
 from MultiGraph import MultiGraph
 import time
+import math
 
 # Used to time the program
 start_time = time.time()
@@ -54,26 +55,105 @@ MG = MultiGraph()
 MG.load('MultiGraph.zip')
 print("--- %s seconds ---" % (time.time() - start_time))
 
+# Ignoring nodes not connected
+for g in MG.graphs:
+    g = nx.k_core(g, k=1)
+print("--- %s seconds ---" % (time.time() - start_time))
 
 # Initializing spectral analysis
-# SpectralDataList = []
-#
-# for g in multiple_graphs:
-#     sd = SpectralData()
-#     sd.clusterNum = 30
-#     sd.graph = g
-#     SpectralDataList.append(sd)
-#
-# saveGraphList(multiple_graphs, names)
-#
-# # Processing
-# resultGraphList = []
-# for elem in SpectralDataList:
-#     if elem.buildProjections():
-#         elem.clusterize()
-#     resultGraphList.append(elem.graph)
-#
-# saveGraphList(resultGraphList, names)
+SpectralDataList = []
+
+for g in MG.graphs:
+    for cc in nx.connected_component_subgraphs(g):
+        if cc.size() > 10:
+            sd = SpectralData()
+            sd.clusterNum = 5
+            sd.graph = g
+        SpectralDataList.append(sd)
+
+print("--- %s seconds ---" % (time.time() - start_time))
+#saveGraphList(multiple_graphs, names)
+
+# Processing
+resultGraphList = []
+for elem in SpectralDataList:
+    if elem.buildProjections():
+        elem.clusterize()
+    resultGraphList.append(elem.graph)
+
+print("--- %s seconds ---" % (time.time() - start_time))
+
+# Count how many time nodes are in the same cluster
+Adj = {}
+
+for subgraph in resultGraphList:
+    # clusternames=[]
+    # # List all existing cluster names
+    # for key in subgraph.node.keys():
+    #     if 'ClusterName' in subgraph.node[key]:
+    #         if subgraph.node[key]['ClusterName'] not in clusternames:
+    #             clusternames.append(subgraph.node[key]['ClusterName'])
+
+    adjdict = dict()
+    # Iterating through nodes
+    for startnode in subgraph.node.keys():
+        # Checking if node exists in Adj
+        if startnode in Adj:
+            adjdict = Adj[startnode]
+
+        if 'ClusterName' in subgraph.node[startnode]:
+            current_cluster = subgraph.node[startnode]['ClusterName']
+
+            for endnode in subgraph.node.keys():
+                if startnode != endnode:
+                    if 'ClusterName' in subgraph.node[endnode]:
+                        if subgraph.node[endnode]['ClusterName'] == current_cluster:
+                            if endnode in adjdict:
+                                adjdict[endnode] += 1
+                            else:
+                                adjdict[endnode] = 1
+        Adj[startnode] = adjdict
+
+print("--- %s seconds ---" % (time.time() - start_time))
+print(Adj.keys())
+
+## Creating graph corresponding to adj
+resGraph = nx.Graph()
+
+# Adding nodes
+for elem in MG.nodes:
+    current_id_node = elem[MG.fieldnames[0]]  # getting first filename as node id
+    resGraph.add_node(current_id_node, elem)
+    # for key in elem.keys():
+    #     resGraph.node[current_id_node][key] = elem[key]
+
+# Creating edges from Adj
+for xnode in Adj.keys():
+    for ynode in Adj[xnode].keys():
+        if not resGraph.has_edge(str(xnode), str(ynode)) and not ynode == xnode:
+            resGraph.add_edge(str(xnode), str(ynode), {'weight': Adj[xnode][ynode]})
+
+# Normalizing weigths for edges
+maxW = 0
+minW = math.inf
+for edge in resGraph.edges():
+    [u, v] = edge
+    if resGraph[u][v]['weight'] > maxW:
+        maxW = resGraph[u][v]['weight']
+    if resGraph[u][v]['weight'] < minW:
+        minW = resGraph[u][v]['weight']
+
+for edge in resGraph.edges():
+    [u, v] = edge
+    a = maxW - minW
+    resGraph[u][v]['weight'] = (resGraph[u][v]['weight'] - minW) / a + 1
+
+# Saving graph
+nx.write_gml(resGraph,'Results/resGraph.gml')
+
+#resGraph.has_node(n=)
+
+#saveGraphList(resultGraphList, names)
 
 # iterations = []
 # for i in range(5):
