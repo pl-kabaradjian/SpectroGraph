@@ -10,6 +10,7 @@ class MultiGraph:
         self.nodes = []
         self.graphs = []
         self.fieldnames = []
+        self.label_column = 'label'
 
     def load(self, filename="MultiGraph.zip"):
 
@@ -27,6 +28,7 @@ class MultiGraph:
                 data = data.read().decode('utf-8').split('\n')
                 rdr = csv.reader(data, delimiter=';')
                 self.fieldnames = next(rdr)
+        self.label_column = self.fieldnames[0]
 
         for filename in filenamelist:
             if filename == 'nodes.csv':
@@ -35,7 +37,7 @@ class MultiGraph:
                 # data = StringIO(archive.read(filename))
                 data = BytesIO(archive.read(filename))
                 data = data.read().decode('utf-8').split('\n')
-                node_reader = csv.DictReader(data, delimiter=';',fieldnames=self.fieldnames)
+                node_reader = csv.DictReader(data, delimiter=';', fieldnames=self.fieldnames)
                 for node in node_reader:
                     self.nodes.append(node)
 
@@ -63,16 +65,23 @@ class MultiGraph:
         paths = saveGraphList(self.graphs, self.fieldnames, location, ts)
         print('*.gml created')
 
+        fn = [self.label_column]
+        for x in self.fieldnames:
+            fn.append(x)
+
         # Creating fieldnames.csv
         fn_file = open(paths['dirname'] + 'fieldnames.csv', 'w')
         wr = csv.writer(fn_file, delimiter=';')
-        wr.writerow(self.fieldnames)
+        wr.writerow(fn)
         fn_file.close()
         print('fieldnames.csv created')
 
         # Creating nodes.csv
         nodes_file = open(paths['dirname'] + 'nodes.csv', 'w')
-        dwr = csv.DictWriter(nodes_file, fieldnames=self.fieldnames, delimiter=';')
+        # Recreating original csv fieldnames
+
+        dwr = csv.DictWriter(nodes_file, fieldnames=fn, delimiter=';')
+
         for node in self.nodes:
             dwr.writerow(node)
         nodes_file.close()

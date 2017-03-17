@@ -20,13 +20,13 @@ class SpectralData:
         print('Building projections')
 
         # adj
-        adj = nx.adjacency_matrix(self.graph, weight='count')
+        adj = nx.adjacency_matrix(self.graph, weight='weight')
         # deg
         deg = adj.sum(axis=0)
         # choix du nombre de dimensions
         k_dim = min(int(0.9 * adj.shape[0]), 30)
         # calcul du laplacien
-        lap = nx.laplacian_matrix(self.graph, weight='count').asfptype()
+        lap = nx.laplacian_matrix(self.graph, weight='weight').asfptype()
         lap *= -1
         # Rescaling ?
         diag = np.array(deg[0]).astype(float)
@@ -91,10 +91,9 @@ class SpectralData:
         return center_node
 
     def clusterize(self):
-        print('Clustering')
+        #print('Clustering')
         self.cluster_nodes()
-
-        print('End of clustering')
+        print('Clustering OK')
 
     def saveGraph(self, name='result.gml'):
         nx.write_gml(self.graph, name)
