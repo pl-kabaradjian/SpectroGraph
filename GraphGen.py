@@ -86,7 +86,6 @@ def connectNodesQuantitative(graph, nearest_neighbours=3, attribute='label'):
                 if not graph.has_edge(src, dst):
                     # graph.add_edge(src, dst, type=str(key))
                     if dist_list[i][1] == 0:
-                    if dist_list[i][1] == 0:
                         weight = 1
                     else:
                         weight = 1/dist_list[i][1]
