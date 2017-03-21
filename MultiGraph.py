@@ -10,7 +10,7 @@ class MultiGraph:
         self.nodes = []
         self.graphs = []
         self.fieldnames = []
-        self.label_column = 'label'
+        self.id_label = 'label'
 
     def load(self, filename="MultiGraph.zip"):
 
@@ -28,7 +28,7 @@ class MultiGraph:
                 data = data.read().decode('utf-8').split('\n')
                 rdr = csv.reader(data, delimiter=';')
                 self.fieldnames = next(rdr)
-        self.label_column = self.fieldnames[0]
+        self.id_label = self.fieldnames[0]
 
         for filename in filenamelist:
             if filename == 'nodes.csv':
@@ -65,7 +65,7 @@ class MultiGraph:
         paths = saveGraphList(self.graphs, self.fieldnames, location, ts)
         print('*.gml created')
 
-        fn = [self.label_column]
+        fn = [self.id_label]
         for x in self.fieldnames:
             fn.append(x)
 

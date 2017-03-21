@@ -91,7 +91,7 @@ class SpectralData:
         return center_node
 
     def clusterize(self):
-        #print('Clustering')
+        # print('Clustering')
         self.cluster_nodes()
         print('Clustering OK')
 
@@ -106,3 +106,48 @@ class SpectralData:
         self.clusterize()
 
         print('End of process')
+
+
+def compareClusters(clusteredGraphs):
+    Adj = {}
+    for subgraph in clusteredGraphs:
+
+        adjdict = dict()
+        # Iterating through nodes
+        for startnode in subgraph.node.keys():
+            # Checking if node exists in Adj
+            if startnode in Adj:
+                adjdict = Adj[startnode]
+
+            if 'ClusterName' in subgraph.node[startnode]:
+                current_cluster = subgraph.node[startnode]['ClusterName']
+
+                for endnode in subgraph.node.keys():
+                    if startnode != endnode:
+                        if 'ClusterName' in subgraph.node[endnode]:
+                            if subgraph.node[endnode]['ClusterName'] == current_cluster:
+                                if endnode in adjdict:
+                                    adjdict[endnode] += 1
+                                else:
+                                    adjdict[endnode] = 1
+            Adj[startnode] = adjdict
+    return Adj
+
+
+def adjToGraph(adj, nodeList, idLabel):
+    resGraph = nx.Graph()
+
+    # Adding nodes
+    for elem in nodeList:
+        current_id_node = elem[idLabel]  # getting node id
+        resGraph.add_node(current_id_node, elem)
+        # for key in elem.keys():
+        #     resGraph.node[current_id_node][key] = elem[key]
+
+    # Creating edges from Adj
+    for xnode in adj.keys():
+        for ynode in adj[xnode].keys():
+            if not resGraph.has_edge(str(xnode), str(ynode)) and not ynode == xnode:
+                resGraph.add_edge(str(xnode), str(ynode), {'weight': adj[xnode][ynode]})
+
+    return resGraph

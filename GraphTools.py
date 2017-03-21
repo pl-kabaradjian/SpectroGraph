@@ -89,3 +89,23 @@ def compressFolder(folder_path, clean=True, algo=zipfile.ZIP_LZMA):
         print('Original files cleaned')
     else:
         print('Original files kept')
+
+
+def showTime(start):
+    print("--- %s seconds ---" % (time.time() - start))
+
+
+def normalizeWeights(graph):
+    maxW = 0
+    minW = math.inf
+    for edge in graph.edges():
+        [u, v] = edge
+        if graph[u][v]['weight'] > maxW:
+            maxW = graph[u][v]['weight']
+        if graph[u][v]['weight'] < minW:
+            minW = graph[u][v]['weight']
+
+    for edge in graph.edges():
+        [u, v] = edge
+        a = maxW - minW
+        graph[u][v]['weight'] = (graph[u][v]['weight'] - minW) / a + 1

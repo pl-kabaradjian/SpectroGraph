@@ -23,15 +23,15 @@ def genGraph(dictList, fieldnames, multigraph=False):
 
 # function that generates one graph for each column
 # returns a list of nx.Graph
-def genMultipleGraphs(dictList, fieldnames, label='label'):
+def genMultipleGraphs(dictList, fieldnames, id_label='label'):
     glist = []
     names = []
 
     for column in fieldnames:
-        if column != label:
+        if column != id_label:
             curr_graph = nx.Graph()
             for elem in dictList:
-                current_id_node = elem[label]  # getting id field
+                current_id_node = elem[id_label]  # getting id field
                 curr_graph.add_node(current_id_node, attr_dict={column: elem[column]})
                 #curr_graph.node[current_id_node][column] = elem[column]  # one attribute by node
             glist.append(curr_graph)
